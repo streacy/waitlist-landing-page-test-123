@@ -20,18 +20,18 @@ export function Footer() {
               height={24}
             />
             <Typography className="!text-white !text-base font-medium ">
-              {`{{siteName}}`}
+              {`My SaaS`}
             </Typography>
           </Link>
         </div>
         <div className="flex max-w-fit items-center gap-x-4">
           <Link
-            href="{{waitlistLink}}"
+            href="https://google.com"
             target="_blank"
             className="pointer block w-fit flex-1"
           >
             <Typography variant="p" className="w-max">
-              {`{{ctaButtonText}}`}
+              {`Join the waitlist :)`}
             </Typography>
           </Link>
           <Link
