@@ -13,14 +13,14 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          {`{{tagLine}}`}
+          {`GoLaunch - Launch your SaaS. Fast.`}
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          {`{{tagLineDescription}}`}
+          {`Explore & Launch customizable SaaS boilerplate templates for your next project.`}
         </Typography>
-        <Link href="{{waitlistLink}}" target="_blank">
+        <Link href="https://google.com" target="_blank">
           <Button size="tiny" variant="ghost">
-            {`{{ctaButtonText}}`}
+            {`Join the waitlist :)`}
           </Button>
         </Link>
         <Image
@@ -34,23 +34,23 @@ export default function Home() {
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
         <div className="flex flex-col gap-12 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            {`{{secondTagLine}}`}
+            {`Launch quicker, validate faster`}
           </Typography>
           <div className="flex md:flex-row flex-col gap-12">
             <Feature
               icon={<Tally1 size={24} />}
-              headline="{{feature1Title}}"
-              description="{{feature1Description}}"
+              headline="Pick your boilerplate"
+              description="Choose from a variety of vetted boilerplates to build your code from"
             />
             <Feature
               icon={<Tally2 size={24} />}
-              headline="{{feature2Title}}"
-              description="{{feature2Description}}"
+              headline="Customize your data"
+              description="Use our UI to input things like the name of your SaaS, your logo, and more. It'll automatically update the boilerplate code with it"
             />
             <Feature
               icon={<Tally3 size={24} />}
-              headline="{{feature3Title}}"
-              description="{{feature3Description}}"
+              headline="Deploy your SaaS"
+              description="Automatically clone the customized repo, and instantly deploy it"
             />
           </div>
         </div>
@@ -66,12 +66,12 @@ export default function Home() {
         </div> */}
         <div className="flex flex-col gap-6 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            {`{{ctaHeadline}}`}
+            {`Get early access`}
           </Typography>
-          <Typography>{`{{ctaDescription}}`}</Typography>
-          <Link href="{{waitlistLink}}" target="_blank">
+          <Typography>{`We're launching soon! Sign up to be one of our first users.`}</Typography>
+          <Link href="https://google.com" target="_blank">
             <Button size="tiny" variant="ghost">
-              {`{{ctaButtonText}}`}
+              {`Join the waitlist :)`}
             </Button>
           </Link>
         </div>
