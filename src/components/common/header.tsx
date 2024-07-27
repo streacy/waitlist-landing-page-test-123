@@ -21,7 +21,7 @@ export function Header({ className }: SidebarProps) {
   const pathname = usePathname()
   const items = [
     {
-      href: '{{waitlistLink}}',
+      href: 'https://google.com',
       title: '',
       openInNewTab: true
     }
@@ -42,17 +42,17 @@ export function Header({ className }: SidebarProps) {
         height={24}
       />
       <Typography className="!text-white !text-base font-medium ">
-        {`{{siteName}}`}
+        {`My SaaS`}
       </Typography>
     </Link>
   )
 
   const getAuthButtons = () => (
     <div className="flex gap-3 items-center">
-      <Link href="{{waitlistLink}}" target="_blank">
+      <Link href="https://google.com" target="_blank">
         <Button size="tiny" color="ghost">
           <Typography variant="p" className="text-black">
-            {`{{ctaButtonText}}`}
+            {`Join the waitlist :)`}
           </Typography>
         </Button>
       </Link>
